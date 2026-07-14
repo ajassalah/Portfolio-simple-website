@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: poppins;
+}
+.container {
+  padding: 20px;
+}
+
+.section-one {
+  background-color: red;
+  color: white;
+  padding: 20px;
+}
+
+.section-one__contact {
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.section-one__contact:hover {
+  color: beige;
+  background-color: black;
+}
+
+.section-one__Name {
+  font-size: 60px;
+}
+
+.section-one__role {
+  font-size: 50px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  margin-top: 20px;
+}
+
+.section-two__description,
+.section-three__description,
+.section-four__description,
+.section-five__description {
+  margin-top: 10px;
+}
+
+.section-three {
+  display: inline-block;
+  background-color: blue;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+  height: 200px;
+  vertical-align: top;
+}
+
+.section-four {
+  display: inline-block;
+  background-color: orange;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+  height: 200px;
+  vertical-align: top;
+}
+
+.section-five {
+  background-color: black;
+  font: white;
+}
+.section-five__description {
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.section-five__links {
+  color: lightcoral;
+}
+
+.section-five__links:hover {
+  color: blue;
+  background-color: white;
+}
+.section-five--description {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.section-three li,
+.section-four li {
+  list-style: none;
+}
+
+.section-onec {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+.section-onec__title {
+  font-size: 60px;
+}
+
+.section-one__descrip {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.section-onec--descrip {
+  background-color: rgb(194, 129, 9);
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+.section-onec--descrip:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.section-twoc {
+  padding: 20px;
+  margin: 20px;
+}
+
+.section-twoc__txtara {
+  margin-left: 25px;
+}
+.section-twoc__txtbox {
+  margin-left: 25px;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: lightblue;
+}
+
+.section-twoc__txtbox:focus {
+  outline: solidred 2px;
+}
+
+.section-twoc__lbl,
+.section-twoc__txtbox {
+  margin-top: 10px;
+}
+
+.section-twoc__button {
+  background-color: orangered;
+  color: white;
+  margin-left: 25px;
+}
+
+.section-twoc__button {
+  padding: 5px;
+  border-width: 0;
+}
+.section-twoc__button:hover {
+  color: white;
+  background-color: black;
+}
+
+.section-threec {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+.section-threec__descript a {
+  color: grey;
+}
+
+.section-threec--descript {
+  margin-top: 5px;
+}
+
+.section-threec__descript a:hover {
+  background-color: white;
+  color: black;
+}
